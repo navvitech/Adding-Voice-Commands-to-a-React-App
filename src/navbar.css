@@ -1,0 +1,29 @@
+a {
+    text-decoration: none;
+    color: aliceblue;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  .navbar__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(255, 94, 35);
+    color: aliceblue;
+    height: 12vh;
+  }
+  
+  .navbar__list li a {
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 23px;
+  }
+  
+  .navbar__list li a.navbar--active {
+    border-bottom: 5px solid aliceblue;
+    color: rgb(35, 252, 7)
+  }
+  

@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: rgb(6, 195, 195);
+  height: 88vh;
+}
+
+.flexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container > h1 {
+  color: aliceblue !important;
+  font-size: 100px;
+  font-style: italic;
+}
